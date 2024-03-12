@@ -41,8 +41,105 @@ padding:10px;
 border-bottom:solid 2px black;
 display:flex;
 align-items:center;
-
 }
+#input{
+width:600px;
+height:55px;
+background-color:rgb(182,181,181);
+display:flex;
+align-items:center;
+border-radius:20px;
+}
+input{
+height:38px;
+width:200px;
+background-color:rgb(182,181,181);
+border:none;
+margin-left:60px;
+color:black;
+font-weight:bolder;
+}
+#menu img{
+margin:5px;
+}
+#searchinp img{
+padding-left:10px;
+height:20px;
+width:20px;
+}
+.chats{
+display:flex;
+align-items:center;
+width:620px;
+height:70px;
+border-bottom:solid 2px black;
+}
+#chatting img{
+height:50px;
+width:50px;
+margin-right:10px;
+}
+#chatting{
+height:1000px;
+width:550px;
+overflow-y:scroll;
+}
+main{
+width:1350px;
+height:91vh;
+display:flex;
+flex-direction:end;
+margin-left:550px;
+}
+header{
+display:flex;
+}
+header img{
+height:50px;
+width:50px;
+margin-right:10px;
+}
+main header{
+background-color:rgb(182,181,181);
+width:1324px;
+height:70px;
+display:flex;
+border-left:solid thin black;
+align-items:center;
+justify-content:space-between;
+padding:0 13px;
+padding-top:10px;
+border-bottom:none;
+position:fixed;
+}
+section{
+height:1000px;
+}
+footer{
+height:60px;
+width:1352px;
+background-color:rgb(121,117,117);
+margin-left:553px;
+padding-bottom:5px;
+position:fixed;
+display:flex;
+justify-content:space-evenly;
+align-items:center;
+}
+footer input{
+width:600px;
+height:38px;
+background-color: rgb(218,213,213);
+border-radius:10px;
+}
+footer img{
+height:25px;
+width:25px;
+margin-left:10px;
+}
+
+
+
 
 
 
